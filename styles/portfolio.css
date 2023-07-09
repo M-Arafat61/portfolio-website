@@ -109,7 +109,7 @@ main section{
 /* about section style */
 .about{
     padding: 130px;
-    background: #f0e5dd;
+    background: #fff6edf1;
     margin:130px 0 ;
 }
 .about-info-container{
@@ -143,5 +143,25 @@ main section{
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-
+}
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+.resume-i-title{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-i-ins{
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.resume-i-ins,.resume-i-desc{
+    color: #757575;
+}
+.download-button{
+    text-align: center;
+    margin-top: 50px;
 }
