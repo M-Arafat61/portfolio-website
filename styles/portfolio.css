@@ -15,8 +15,7 @@ body{
     font-weight: 700;
     font-size: 20px;
     border: 0;
-    padding: 18px 35px;
-    height: 64px;
+    padding: 15px 35px;
 }
 
 .section-title{
@@ -29,11 +28,9 @@ body{
     color:#757575;
     text-align: center;
     font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
 }
 
-/* header style & navigation style*/
+/*navigation style*/
 nav{
     display: flex;
     justify-content: space-between;
@@ -62,14 +59,14 @@ nav a{
 /* header related styles */
 .header{
     background-color:#FFF8F3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png),url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 
 /* banner styles */
 .banner{
-    padding-left:30px 30px 0px 150px;
+    padding:30px 30px 0px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,13 +88,13 @@ nav a{
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-description{
+/* .banner-description{
     color:  #757575;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-}
+} */
 /* main section style */
 main{
     max-width: 1140px;
@@ -111,6 +108,7 @@ main section{
     padding: 130px;
     background: #fff6edf1;
     margin:130px 0 ;
+    border-radius: 10px;
 }
 .about-info-container{
     display: flex;
@@ -122,7 +120,7 @@ main section{
 
 /* skills related styles */
 #wid-des{
-    padding: 20px 130px;
+    padding: 30px 130px;
 }
 .skills-container{
     display: flex;
@@ -130,7 +128,7 @@ main section{
 }
 .skill{
     padding: 25px;
-    border-radius: 20px;
+    border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
